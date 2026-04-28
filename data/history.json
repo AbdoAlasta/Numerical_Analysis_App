@@ -1,0 +1,216 @@
+[
+  {
+    "type": "nonlinear",
+    "method": "Bisection",
+    "f_expr": "-2 + 7*x - 5*x**2 + 6*x**3",
+    "inputs": {
+      "f_expr": "-2 + 7*x - 5*x**2 + 6*x**3",
+      "epsilon": "0.5",
+      "max_iter": "100",
+      "xl": "0",
+      "xu": "1",
+      "decimal_places": "6",
+      "stop_by_epsilon": "True"
+    },
+    "result": {
+      "root_or_solution": 0.333008,
+      "iterations_count": 10,
+      "converged": true,
+      "final_error": 0.293255
+    },
+    "id": "c5a28123ee80",
+    "datetime": "2026-04-28T05:50:05"
+  },
+  {
+    "type": "nonlinear",
+    "method": "False Position",
+    "f_expr": "x**3 - x - 2",
+    "inputs": {
+      "f_expr": "x**3 - x - 2",
+      "epsilon": "0.5",
+      "max_iter": "100",
+      "xl": "0",
+      "xu": "3",
+      "decimal_places": "6",
+      "stop_by_epsilon": "True"
+    },
+    "result": {
+      "root_or_solution": 1.513064,
+      "iterations_count": 13,
+      "converged": true,
+      "final_error": 0.362582
+    },
+    "id": "9403d28466cc",
+    "datetime": "2026-04-28T06:24:08"
+  },
+  {
+    "type": "linear",
+    "method": "Gauss-Jordan",
+    "f_expr": null,
+    "inputs": {
+      "A": [
+        [
+          2.0,
+          1.0,
+          1.0
+        ],
+        [
+          3.0,
+          4.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0,
+          1.0
+        ]
+      ],
+      "b": [
+        8.0,
+        11.0,
+        13.0
+      ],
+      "size": 3
+    },
+    "result": {
+      "root_or_solution": [
+        0.333333,
+        2.5,
+        4.833333
+      ],
+      "iterations_count": 0,
+      "converged": true,
+      "final_error": null
+    },
+    "id": "fb9c6c558bf5",
+    "datetime": "2026-04-28T06:24:37"
+  },
+  {
+    "type": "nonlinear",
+    "method": "Bisection",
+    "f_expr": "-2 + 7*x - 5*x**2 + 6*x**3",
+    "inputs": {
+      "f_expr": "-2 + 7*x - 5*x**2 + 6*x**3",
+      "epsilon": "0.5",
+      "max_iter": "100",
+      "xl": "0",
+      "xu": "1",
+      "decimal_places": "6",
+      "stop_by_epsilon": "True"
+    },
+    "result": {
+      "root_or_solution": 0.333008,
+      "iterations_count": 10,
+      "converged": true,
+      "final_error": 0.293255
+    },
+    "id": "e78db2ff9293",
+    "datetime": "2026-04-28T10:40:40"
+  },
+  {
+    "type": "nonlinear",
+    "method": "Bisection",
+    "f_expr": "-2 + 7*x - 5*x**2 + 6*x**3",
+    "inputs": {
+      "f_expr": "-2 + 7*x - 5*x**2 + 6*x**3",
+      "epsilon": "0.5",
+      "max_iter": "5",
+      "xl": "0",
+      "xu": "1",
+      "decimal_places": "6",
+      "stop_by_epsilon": "False"
+    },
+    "result": {
+      "root_or_solution": 0.34375,
+      "iterations_count": 5,
+      "converged": true,
+      "final_error": 9.090909
+    },
+    "id": "8866fc78c97e",
+    "datetime": "2026-04-28T10:42:15"
+  },
+  {
+    "type": "linear",
+    "method": "Gauss Elimination",
+    "f_expr": null,
+    "inputs": {
+      "A": [
+        [
+          2.0,
+          1.0,
+          1.0
+        ],
+        [
+          3.0,
+          4.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0,
+          1.0
+        ]
+      ],
+      "b": [
+        8.0,
+        11.0,
+        13.0
+      ],
+      "size": 3
+    },
+    "result": {
+      "root_or_solution": [
+        0.333333,
+        2.5,
+        4.833333
+      ],
+      "iterations_count": 0,
+      "converged": true,
+      "final_error": null
+    },
+    "id": "51def8cb9939",
+    "datetime": "2026-04-28T10:44:13"
+  },
+  {
+    "type": "linear",
+    "method": "Gauss-Jordan",
+    "f_expr": null,
+    "inputs": {
+      "A": [
+        [
+          2.0,
+          1.0,
+          1.0
+        ],
+        [
+          3.0,
+          4.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0,
+          1.0
+        ]
+      ],
+      "b": [
+        8.0,
+        11.0,
+        13.0
+      ],
+      "size": 3
+    },
+    "result": {
+      "root_or_solution": [
+        0.333333,
+        2.5,
+        4.833333
+      ],
+      "iterations_count": 0,
+      "converged": true,
+      "final_error": null
+    },
+    "id": "5dc028a03b8b",
+    "datetime": "2026-04-28T10:45:08"
+  }
+]
