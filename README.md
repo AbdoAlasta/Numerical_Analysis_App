@@ -86,12 +86,10 @@ numerical_analysis_calculator/
 
 ## Future Improvements
 
-- Additional non-linear methods (Müller, Brent)
 - Matrix condition number analysis
 - Polynomial root finder
 - Export to Excel/CSV
 - Multi-language support
-- Dark/Light theme presets
 
 ## License
 
